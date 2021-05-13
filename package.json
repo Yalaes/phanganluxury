@@ -1,0 +1,22 @@
+{
+  "name": "phanganluxury",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yalaes/phanganluxury.git"
+  },
+  "author": "Yalaes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yalaes/phanganluxury/issues"
+  },
+  "homepage": "https://github.com/Yalaes/phanganluxury#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
