@@ -7,10 +7,14 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
   @media only screen and (max-width: 75em) {
     html {
       font-size: 50%; } }
+
+a {
+  text-decoration: none; }
 
 body {
   font-family: "Nunito", sans-serif;
@@ -383,12 +387,14 @@ body {
   color: #fff;
   border: none;
   border-radius: 0;
+  font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
   padding: 1.8rem 3rem;
   cursor: pointer;
-  transition: background-color .25s; }
+  transition: background-color .25s;
+  text-decoration: none; }
   .btn:hover {
     background-color: #b28451; }
 
